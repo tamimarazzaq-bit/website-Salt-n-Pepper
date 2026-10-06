@@ -1,0 +1,507 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+}
+.head{
+    background-color: black;
+    padding-top: 5px;
+}
+.logo{
+    width:30px;
+    position: relative;
+    left:60px;
+    text-align: center;
+   
+}
+.logo img{
+    width:165px;
+}
+ .logo,.menu{
+    display: inline-block;
+    vertical-align: middle;
+ }
+.menu{
+    width:60%;
+    text-align: right;
+    padding: 10px;
+}
+
+.links ul li{
+     display: inline;
+    color: white;
+   padding: 17px 36px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.links,.btn{
+    display: inline-block;
+    position: relative;
+    left: 380px;
+   
+}
+
+.btn-one{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 15px;
+    border-radius: 25px;
+    margin-right: 7px;
+ }
+   .btn-two{
+    background-color: rgb(239, 23, 23);
+   border: none;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 27px;
+ }
+ .btn-two i{
+    background-color: white;
+    color:  rgb(239, 23, 23);
+    padding: 5px;
+    border-radius: 30px;
+    margin-left: 10px;
+ }
+ .section-one{
+    width: 100%;
+ }
+ .section-one img{
+    width: 100%;
+ }
+ /*===== Section-Two===== */
+ .section-two{
+    background-color: black;
+    width: 100%;    
+ }
+
+.section-two .main-text{
+text-align: center;
+color: white;
+}
+.section-two .main-text p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-two .main-text p span{
+    font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+}
+.section-two .main-text .lit {
+       font-size: small;
+       color: rgba(255, 255, 255, 0.763);
+}
+/* cards */
+
+.container{
+  margin-bottom: 400px;
+  height: 500px;
+  margin-bottom: 100px;
+  width: 100%;
+  background-color: black;
+}
+.bts-btn{
+  height: 200px ;
+  width: 200px;
+  margin-top: 200px;
+  margin-left: 90px;
+  background-color: black;
+  display: inline-block;
+}
+ .cards img{
+    width: 170px;
+    height: 100px;
+    margin-left: 5px;
+    align-items: center;
+    display: inline-block;
+    top: 0%;
+   align-items: center;
+    background-color: white;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  .bts-btn button{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 15px;
+    border-radius: 25px;
+    margin-right: 7px;
+    margin-left: 50px;
+    align-items: center;
+  }
+     /* section-work */
+  .section-two.main-text span{
+     font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+  }
+
+  .mid{
+    display: flex;
+    background-color: black;
+  }
+  .box img {
+     width: 500px;
+     height: 260px;
+     display: flex;
+     position: relative;
+     left: 100px;
+  }
+ .text-lit{
+    margin-top:7px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    background-color:black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 120px;
+    text-transform: none;
+  } 
+  .text-lit  .red{
+    color: red;
+    letter-spacing: 5px;
+    text-align: justify;
+    font-size: medium; 
+  }
+  .text-lit p{
+        font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text-lit p span{
+     font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+  }
+  .text-lit .lit-x{
+      font-size: small;
+       color: rgba(255, 255, 255, 0.763);
+  }
+  .text-lit .bit{
+     background-color: black;
+     color: white;
+     border-radius: 25px;
+     padding:  10px 10px;
+     margin:30px  20px;
+     border: 1 solid white;
+  }
+
+.bit i{
+     background-color: white;
+    color:  rgb(239, 23, 23);
+    padding: 5px;
+    border-radius: 35px;
+    margin-left: 10px;
+}
+  .mid-x{
+     display: flex;
+    background-color: black;
+    align-items: right;
+    justify-content: right;
+
+  }
+  .box-x img{
+     width: 530px;
+     height: 260px;
+     display: flex;
+     position: relative;
+     right: 100px;
+  }
+
+  .text-lit-q{
+    background-color:black;
+    color: white;
+    margin-right: 250px;
+     margin-top:10px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    position: relative;
+    text-transform: none;
+  }
+  .text-lit-q .red-q{
+     color: red;
+    letter-spacing: 5px;
+    text-align: justify;
+    font-size: medium;
+  }
+  .text-lit-q p{
+         font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text-lit-q p span{
+      font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+  }
+  .text-lit-q  .lit-q{
+       font-size: small;
+       color: rgba(255, 255, 255, 0.763);
+  }
+  .text-lit-q .btn-q{
+     background-color: black;
+     color: white;
+     border-radius: 25px;
+     padding:  10px 10px;
+     margin:30px  20px;
+     border: 1 solid white;
+  }
+  .btn-q i{
+     background-color: white;
+    color:  rgb(239, 23, 23);
+    padding: 5px;
+    border-radius: 35px;
+    margin-left: 10px;
+  }
+
+  .some .some-x{
+    text-align: center;
+color: white;
+  }
+  .some .some-x  h1 span{
+        font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+     font-width: 100px;
+     word-spacing: 5px;
+     font-size: 40px;
+
+  }
+  .some .some-x h2{
+     font-size: 30px;
+     letter-spacing: 7px;
+     word-spacing: 3px;
+    font-family:sans-serif;
+  }
+
+  /* cards-secoond */
+ 
+
+     .menu-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            text-align: center; 
+        }
+        .menu-card {
+            display: inline-block;
+            width: 320px;
+            margin: 20px 15px;
+            background-color: black;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: left;
+            vertical-align: top; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* /* Hover Effect:  */
+        .menu-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 20px rgba(41, 39, 39, 0.15);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #eaeaea; 
+        }
+
+        .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+       .card-body .red-x{
+            color: red;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: medium;
+        }
+
+        .card-body p {
+          color: white;
+             font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+        }
+        .card-body p span{
+        color: white;
+           font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+        }
+        .card-body .lit-y{
+             font-size: small;
+       color: rgba(255, 255, 255, 0.763);
+        }
+        .card-body .btn-y{
+            background-color: black;
+     color: white;
+     border-radius: 25px;
+     padding:  10px 10px;
+     margin:30px  20px;
+     border: 1 solid white;
+        }
+        .card-body .btn-y i{
+            background-color: white;
+    color:  rgb(239, 23, 23);
+    padding: 5px;
+    border-radius: 35px;
+    margin-left: 10px;
+ }
+ .mid-y{
+     display: flex;
+    background-color: black;
+ }
+ .box-y img{
+     width: 560px;
+     height: 300px;
+     display: flex;
+     position: relative;
+ }
+.text-lit-z{
+      margin-top:60px;
+    margin-bottom: 10px;
+    background-color:black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 25px;
+    text-transform: none;
+}
+.text-lit-z .red-z{
+        color: red;
+    letter-spacing: 5px;
+    text-align: justify;
+    font-size: medium; 
+}
+.text-lit-z p{
+       font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-lit-z p span{
+      font-weight: bolder;
+    font-family:"Black Ops One", system-ui;
+}
+.text-lit-z .lit-z{
+     font-size: small;
+       color: rgba(255, 255, 255, 0.763);
+}
+.text-lit-z .bit-z{
+       background-color: green;
+     color: white;
+     border-radius: 25px;
+     padding:  10px 10px;
+     margin:30px  25px;
+     border: 1 solid white;
+}
+.text-lit-z .bit-z i{
+    background-color: white;
+    color:  green;
+    padding: 5px;
+    border-radius: 40px;
+    margin-left: 10px;
+  }
+  /* last main text */
+  .some .some-x h2 span{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:18px;
+     font-weight: 200;
+  }
+
+.details{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            text-align: center; 
+}
+.details .details-cards{
+               display: inline-block;
+            width: 320px;
+            margin: 20px 15px;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            vertical-align: top; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.details-cards img {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.details-cards:hover{
+         transform: translateY(-8px);
+            box-shadow: 0 12px 20px rgba(41, 39, 39, 0.15);
+}
+.details-cards .redish {
+        font-size: small;
+        color: red;
+        letter-spacing: 5px;
+}
+.details-cards p span{
+    color: black;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details-cards p{
+       font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conclusion{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.conclusion-last{
+    background-color: black;
+    width: 350px;
+    height: 530px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.lastest img{
+     width: 100px;
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.conclusion .conclusion-last p{
+         font-size: small;
+         text-align: justify;
+       color: rgba(255, 255, 255, 0.765);
+
+}
+.conclusion-last h3{
+  color: white;
+}
+.conclusion-last h2{
+  color: white;
+}
+.conclusion-last .last-text h2{
+    text-align: center;
+}
+
+.logo-lit div{
+        width: 45px;
+        height: 45px;
+        /* margin: 20px; */
+        border-radius: 50%;
+        background-color: rgba(255, 0, 0, 0.888);
+         display: inline-block; 
+}
+.logo-lit i{
+       color: white;
+       margin-top: 15px;
+      margin-left: 12px;
+      text-align: center;
+}
